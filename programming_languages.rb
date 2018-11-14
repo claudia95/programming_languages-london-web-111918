@@ -3,7 +3,7 @@ def reformat_languages(languages)
   languages.each do |style, list|
     list.each do |language, type|
       if new_hash.include?(language)
-        new_hash[language][:style] == style
+        new_hash[language][:style] << style
       else
         new
     
