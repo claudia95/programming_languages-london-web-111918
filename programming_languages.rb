@@ -1,4 +1,4 @@
 def reformat_languages(languages)
   new_hash = {}
-  hash[:my_key]
+  hash[:ruby] = {:style: :oo}
 end
